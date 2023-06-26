@@ -5,11 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Titulo Maxi</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
         *{
             box-sizing: border-box;
+            margin: 0;
+        }
+        body{
+            font-family: 'Space Grotesk', sans-serif;
+            
         }
         nav{
-            background-color: red;
+            display: flex;
+            width: 100%;
+            height: 80px;
+            padding: 10px;
+            border: solid 1px rgb(66, 66, 179);
+            justify-content: space-between;
+        }
+        #logo{
+            display: flex;
+            align-items: center;
+            font-size: 24px;
+            font-weight: bolder;
+            gap: 5px;
+        }
+        ul{
+            display: flex;
+            align-items: center;
+            list-style: none;
+            gap: 35px;
+            color: #93a1b6;
+        }
+        .divIngreso{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        #botonIngreso {
+           border: 0;
+           background-color: white;
+           height: 30px;
+           font-family: 'Space Grotesk', sans-serif;
+           color: #93a1b6;
+           border-radius: 5px;
+        }
+        #botonRegistro {
+            border: 0;
+            background-color: #2ad167;
+            height: 30px;
+            font-family: 'Space Grotesk', sans-serif;
+            border-radius: 5px;
         }
         header{
             background-color: aqua;
@@ -31,17 +76,19 @@
 <body>
     <!-- Consultar si es necesario envolver el nav en un header -->
     <nav>
-        <img src="" alt="" srcset=""> 
-
+        <div id="logo">
+        <img src="Materiales\logo-verde.png" alt="" srcset="logo senpai flex" width="35px" height="28px">
+        <span>Flex</span>
+        </div>
         <ul>
             <li>Producto</li>
             <li>Características</li>
             <li>Precios</li>
         </ul>
 
-        <div class="ingreso">
-            <button>Ingresar</button>
-            <button>Registrarse</button>
+        <div class="divIngreso">
+            <button id="botonIngreso">Ingresar</button>
+            <button id="botonRegistro">Registrarse</button>
         </div>
     </nav>
 
