@@ -4,57 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Titulo Maxi</title>
+    <link rel="stylesheet" href="style.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
         *{
             box-sizing: border-box;
-            margin: 0;
-        }
-        body{
-            font-family: 'Space Grotesk', sans-serif;
-            
         }
         nav{
-            display: flex;
-            width: 100%;
-            height: 80px;
-            padding: 10px;
-            border: solid 1px rgb(66, 66, 179);
-            justify-content: space-between;
-        }
-        #logo{
-            display: flex;
-            align-items: center;
-            font-size: 24px;
-            font-weight: bolder;
-            gap: 5px;
-        }
-        ul{
-            display: flex;
-            align-items: center;
-            list-style: none;
-            gap: 35px;
-            color: #93a1b6;
-        }
-        .divIngreso{
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        #botonIngreso {
-           border: 0;
-           background-color: white;
-           height: 30px;
-           font-family: 'Space Grotesk', sans-serif;
-           color: #93a1b6;
-           border-radius: 5px;
-        }
-        #botonRegistro {
-            border: 0;
-            background-color: #2ad167;
-            height: 30px;
-            font-family: 'Space Grotesk', sans-serif;
-            border-radius: 5px;
+            background-color: red;
         }
         header{
             background-color: aqua;
@@ -93,22 +49,33 @@
     </nav>
 
     <header>
-        <div>
-            <img src="" alt="Logo de nuevo">
+        <div class="contenido">
+            <p>Nuevo</p>
+            <!-- <img src="./Materiales/" alt="Logo de nuevo"> -->
             <h1>La Plataforma para las empresas del futuro</h1>
             <h5>Productos pensados para los negocios del próximo siglo</h5>
-            <button>Solicitar demo</button>
-            <button>Registrarse</button>
+            <div class="botones">
+                <button class="Solicitar">Solicitar demo</button>
+                <button class="Registrarse">Registrarse</button> 
+            </div>
         </div>
-        <img src="" alt="">
-    </header>  
+        <div class="imagen">
+            <img src="Materiales/circle3-yellow.svg" class="circulo" alt="" srcset="">
+            <img src="./Materiales/header.jpg"" class="bg-imagen">
+            <img src="Materiales/dots3-blue.svg" class="puntos" alt="" srcset="">
+        </div>
+        
+    </header> 
+
     <section>
         <div>1</div>
         <div>2</div>
         <div>3</div>
     </section>
+    
     <h2>Precios flexibles que escalan contigo</h2>
     <p> Nuestra facturación se ajusta al tamaño de tu empresa. Tiempo de prueba de 7 días en todos nuestros planes</p>
+    
     <div>
         <article>
             <div>
