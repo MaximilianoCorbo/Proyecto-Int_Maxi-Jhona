@@ -166,6 +166,7 @@
                 <span>Aún no tienes cuenta?</span>
                 <span id="spanVerde">Regisrarse</span>
             </div>
+            <button id="cerrar" onclick="cerrar()">x</button>
             </form>
         </div>
     </div>
@@ -173,6 +174,10 @@
         function ingresar() {
             const ingresar = document.getElementById("fondoNegro");
             ingresar.classList.add("disFlex");
+        }
+        function cerrar() {
+            const cerrar =  document.getElementById("fondoNegro");
+            cerrar.classList.remove("disFlex");
         }
     </script>
 </body>

@@ -48,6 +48,7 @@ ul{
    color: #93a1b6;
    border-radius: 5px;
    font-size: 15px;
+   cursor: pointer;
 }
 #botonRegistro {
     border: 0;
@@ -57,7 +58,8 @@ ul{
     width: 100px;
     font-family: 'Space Grotesk', sans-serif;
     border-radius: 5px;
-    font-size: 14
+    font-size: 14;
+    cursor: pointer;
 }
 
 
@@ -362,4 +364,15 @@ footer p {
 }
 .disFlex {
     display: flex;
+}
+#cerrar {
+    width: 30px;
+    height: 30px;
+    background-color: #2a3342;
+    position: absolute;
+    top: 105px;
+    right: 155px;
+    font-size: 48px;
+    color: #cacaca;
+    cursor: pointer;
 }
