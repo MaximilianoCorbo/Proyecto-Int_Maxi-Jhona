@@ -34,13 +34,13 @@
             <h1>La Plataforma para las empresas del futuro</h1>
             <h5>Productos pensados para los negocios del próximo siglo</h5>
             <div class="botones">
-                <button class="Solicitar">Solicitar demo</button>
-                <button class="Registrarse">Registrarse</button> 
+                <button class="Solicitar" onclick="ingresar()">Solicitar demo</button>
+                <button class="Registrarse" onclick="ingresar()">Registrarse</button> 
             </div>
         </div>
         <div class="imagen">
+            <img src="./Materiales/header.jpg" class="bg-imagen">
             <img src="Materiales/circle3-yellow.svg" class="circulo" alt="" srcset="">
-            <img src="./Materiales/header.jpg"                                                                                                                                                        class="bg-imagen">
             <img src="Materiales/dots3-blue.svg" class="puntos" alt="" srcset="">
         </div>
         
@@ -92,7 +92,7 @@
                 <li><img src="Materiales/check.png" alt="" height="10px"> Asistencia por correo</li>
                 <li><img src="Materiales/check.png" alt="" height="10px"> Hasta 10 miembros</li>
             </ul>
-            <button>Solicitar demo</button>
+            <button onclick="ingresar()">Solicitar demo</button>
         </article>
 
         <article>
@@ -108,7 +108,7 @@
                 <li><img src="Materiales/check.png" alt="" height="10px"> 100gb almacenamiento</li>
                 <li><img src="Materiales/check.png" alt="" height="10px"> Hasta 100 miembros</li>
             </ul>
-            <button>Solicitar demo</button>
+            <button onclick="ingresar()">Solicitar demo</button>
         </article>
 
         <article>
@@ -124,7 +124,7 @@
                 <li><img src="Materiales/check.png" alt="" height="10px"> Asistencia telefónica 24/7</li>
                 <li><img src="Materiales/check.png" alt="" height="10px"> Miembros ilimitados</li>
             </ul>
-            <button>Solicitar demo</button>
+            <button onclick="ingresar()">Solicitar demo</button>
         </article>
     </div>
 
@@ -166,7 +166,7 @@
                 </div>
             <button>Ingresar</button><br>
             <div id="spanModalRegistro">    
-                <span>Aún no tienes cuenta?</span>
+                <span id="spanBlanco">Aún no tienes cuenta?</span>
                 <span id="spanVerde">Regisrarse</span>
             </div>
             </form>
