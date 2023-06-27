@@ -48,6 +48,7 @@ ul{
    color: #93a1b6;
    border-radius: 5px;
    font-size: 15px;
+   cursor: pointer;
 }
 #botonRegistro {
     border: 0;
@@ -57,7 +58,8 @@ ul{
     width: 100px;
     font-family: 'Space Grotesk', sans-serif;
     border-radius: 5px;
-    font-size: 14
+    font-size: 14;
+    cursor: pointer;
 }
 
 
@@ -180,6 +182,7 @@ section div{
     width: 23%;
     font-size: 11px;
     color: #93a1b6;
+    gap: 10px;
 }
 .divIconos h4 {
     font-size: 20px;
@@ -277,4 +280,102 @@ footer p {
     display: flex;
     justify-content: space-around;
     margin-bottom: 25px;
+}
+.fondoNegro {
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.895);
+}
+.modal {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2a3342;
+    width: 80%;
+    height: 75vh;
+    gap: 15px;
+
+}
+.modal form {
+    width: 25%;
+}
+#logoModal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2ad167;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+}
+.modal h3{
+    font-weight: bolder;
+    color: #f7f8f9;
+    font-size: 24px;
+}
+.modal p {
+    font-size: 13px;
+    color: #93a1b6;
+}
+.modal form p{
+    color: #f7f8f9;
+}
+.divInputs {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.inputs {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+}
+.modal button {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #2ad167;
+    color: #f7f8f9;
+    margin: 10px 0px 10px 0px;
+}
+.modal span {
+    font-size: 10px;
+}
+#checkbox {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    color: #2ad167;
+}
+#spanModalRegistro{
+    display: flex;
+    justify-content: space-between;
+}
+#spanVerde {
+    color: #2ad167;
+}
+.disFlex {
+    display: flex;
+}
+#cerrar {
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    margin: 0;
+    top: 5px;
+    right: 15px;
+    font-size: 40px;
+    color: #cacaca;
+    cursor: pointer;
+    gap: 0;
 }
