@@ -205,6 +205,7 @@ section div{
     display: flex;
     width: 100%;
     justify-content: space-around;
+    margin-bottom: 35px;
 }
 .tarjetas article{
     background-color: #f7f8f9;
