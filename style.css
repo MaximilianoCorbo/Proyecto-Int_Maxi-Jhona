@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
 *{
     box-sizing: border-box;
     padding: 0;
@@ -65,15 +66,22 @@ header{
     display: flex;
     justify-content: space-around;
     padding: 30px;
-    width: 100vw;
+    width: 100%;
 }
 header .contenido{
     display: flex;
     flex-direction: column;
     align-items: left;
+    justify-content: center;
     background-color: #f7f8f9;
     width: 50%;
     gap: 20px;
+}
+header .contenido p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 header .contenido h1{
     font-size: 80px;
@@ -104,8 +112,11 @@ header .contenido .botones button{
 
 header .contenido .Solicitar{
     background-color: #2ad167;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #f7f8f9;
 }
 header .contenido .Registrarse{
+    font-family: 'Space Grotesk', sans-serif;
     background-color: #f7f8f9;
 }
 
