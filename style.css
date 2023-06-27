@@ -4,10 +4,10 @@
     margin: 0;
     border: 0;
 }
-
 body{
-    font-family: 'Space Grotesk', sans-serif;            
+    font-family: 'Space Grotesk', sans-serif;      
 }
+
 
 nav{
     
@@ -94,21 +94,21 @@ header .contenido p{
     width: 80px;
     height: 30px;
 }
-
 header .contenido .botones button{
     width:150px;
     height: 50px;
     border-radius: 10px;
     border: 1px solid #cacaca;
 }
-
 header .contenido .Solicitar{
     background-color: #2ad167;
+    color: #f7f8f9;
+    font-family: 'Space Grotesk', sans-serif;   
 }
 header .contenido .Registrarse{
     background-color: #f7f8f9;
+    font-family: 'Space Grotesk', sans-serif;   
 }
-
 header .imagen{
     position: relative;
     display: flex;
@@ -144,12 +144,12 @@ header section div{
     height: 100px;
 }
 
+
 section{
     display: flex;
     justify-content: space-around;
-    margin: 2%;
-    width: 96%;
-    background-color: green;
+    width: 100%;
+    background-color: #f7f8f9;
 }
 .iconos {
     background-color: #2ad167;
@@ -172,12 +172,46 @@ section div{
     align-items: center;
     padding: 5px;
     background-color: #f7f8f9;
-    width: 33.333%;
+    width: 23%;
     font-size: 11px;
-    gap: 10px;
     color: #93a1b6;
 }
 .divIconos h4 {
-    font-size: 15px;
+    font-size: 17px;
     color: #2a3342;
+}
+
+.info{
+    background-color: #f7f8f9;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 40px;
+    gap: 20px;
+    font-size: 18px;
+}
+.info h2{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+.tarjetas{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.tarjetas article{
+    background-color: #93a1b6;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.tarjetas article ul{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
 }
