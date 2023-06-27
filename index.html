@@ -21,8 +21,8 @@
         </ul>
 
         <div class="divIngreso">
-            <button id="botonIngreso">Ingresar</button>
-            <button id="botonRegistro">Registrarse</button>
+            <button id="botonIngreso" onclick="ingresar()">Ingresar</button>
+            <button id="botonRegistro" onclick="ingresar()">Registrarse</button>
         </div>
     </nav>
 
@@ -141,7 +141,7 @@
         </ul>
         <p>© 2022 Flex. Un producto ficticio de Senpai</p>
     </footer>
-    <div class="fondoNegro">
+    <div id="fondoNegro" class="fondoNegro">
         <div class="modal">
             <div id="logoModal">
                 <img src="Materiales\logo-blanco.png" alt="" srcset="logo senpai flex" width="32px" height="25px">
@@ -169,5 +169,11 @@
             </form>
         </div>
     </div>
+    <script>
+        function ingresar() {
+            const ingresar = document.getElementById("fondoNegro");
+            ingresar.classList.add("disFlex");
+        }
+    </script>
 </body>
 </html>

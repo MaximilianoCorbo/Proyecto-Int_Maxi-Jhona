@@ -280,10 +280,10 @@ footer p {
     margin-bottom: 25px;
 }
 .fondoNegro {
+    display: none;
     position: fixed;
     top: 0px;
     left: 0px;
-    display: none;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -359,4 +359,7 @@ footer p {
 }
 #spanVerde {
     color: #2ad167;
+}
+.disFlex {
+    display: flex;
 }
