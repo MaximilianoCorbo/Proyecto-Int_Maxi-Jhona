@@ -252,3 +252,81 @@ footer p {
     justify-content: space-around;
     margin-bottom: 25px;
 }
+.fondoNegro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.823);
+}
+.modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2a3342;
+    width: 80%;
+    height: 75vh;
+    gap: 15px;
+
+}
+.modal form {
+    width: 25%;
+}
+#logoModal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2ad167;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+}
+.modal h3{
+    font-weight: bolder;
+    color: #f7f8f9;
+    font-size: 24px;
+}
+.modal p {
+    font-size: 13px;
+    color: #93a1b6;
+}
+.modal form p{
+    color: #f7f8f9;
+}
+.divInputs {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.inputs {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+}
+.modal button {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #2ad167;
+    color: #f7f8f9;
+    margin: 10px 0px 10px 0px;
+}
+.modal span {
+    font-size: 10px;
+}
+#checkbox {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    color: #2ad167;
+}
+#spanModalRegistro{
+    display: flex;
+    justify-content: space-between;
+}
+#spanVerde {
+    color: #2ad167;
+}
