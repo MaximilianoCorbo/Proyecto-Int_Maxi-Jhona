@@ -61,7 +61,7 @@ ul{
 
 
 header{
-    background-color: whitesmoke;
+    background-color: white;
     display: flex;
     justify-content: space-around;
     padding: 30px;
@@ -71,7 +71,7 @@ header .contenido{
     display: flex;
     flex-direction: column;
     align-items: left;
-    background-color: #f7f8f9;
+    background-color: white;
     width: 50%;
     gap: 20px;
 }
@@ -102,11 +102,11 @@ header .contenido .botones button{
 }
 header .contenido .Solicitar{
     background-color: #2ad167;
-    color: #f7f8f9;
+    color: white;
     font-family: 'Space Grotesk', sans-serif;   
 }
 header .contenido .Registrarse{
-    background-color: #f7f8f9;
+    background-color: white;
     font-family: 'Space Grotesk', sans-serif;   
 }
 header .imagen{
@@ -136,10 +136,8 @@ header .imagen .puntos{
 header section{
     display: flex;
     justify-content: space-around;
-    background-color: green;
 }
 header section div{
-    background-color: aquamarine;
     width: 100px;
     height: 100px;
 }
@@ -149,7 +147,7 @@ section{
     display: flex;
     justify-content: space-around;
     width: 100%;
-    background-color: #f7f8f9;
+    background-color: white;
 }
 .iconos {
     background-color: #2ad167;
@@ -171,7 +169,7 @@ section div{
     text-align: center;
     align-items: center;
     padding: 5px;
-    background-color: #f7f8f9;
+    background-color: white;
     width: 23%;
     font-size: 11px;
     color: #93a1b6;
@@ -182,7 +180,7 @@ section div{
 }
 
 .info{
-    background-color: #f7f8f9;
+    background-color: white;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -202,16 +200,46 @@ section div{
     justify-content: space-around;
 }
 .tarjetas article{
-    background-color: #93a1b6;
-    width: 20%;
+    background-color: #f7f8f9;
+    width: 30%;
+    height: fit-content;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     text-align: center;
+    align-items: center;
+    border-radius: 5px;
 }
 .tarjetas article ul{
     display: flex;
     flex-direction: column;
+    align-items: baseline;
     text-align: left;
     gap: 10px;
+    list-style-image: url('');
+    margin: 20px;
+}
+.tarjetas article div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+}
+
+.tarjetas article div h4{
+    color: #2ad167;
+    font-weight: 100;
+}
+
+.tarjetas article div h3{
+    color: #2ad167;
+}
+.tarjetas article div h6{
+    color: #93a1b6;
+}
+.tarjetas article button{
+    background-color: #2ad167;
+    color: #f7f8f9;
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
 }
