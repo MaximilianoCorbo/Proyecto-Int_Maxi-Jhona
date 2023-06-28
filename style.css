@@ -28,12 +28,13 @@ nav{
     font-weight: bolder;
     gap: 5px;
 }
-ul{
+nav ul{
     display: flex;
     align-items: center;
     list-style: none;
     gap: 35px;
     color: #93a1b6;
+    cursor: pointer;
 }
 .divIngreso{
     display: flex;
