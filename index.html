@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto ingrador</title>
+    <title>Proyecto Integrador</title>
     <link rel="stylesheet" href="style.css">
    
 </head>
@@ -16,9 +16,9 @@
         </div>
 
         <ul>
-            <li>Producto</li>
-            <li>Características</li>
-            <li>Precios</li>
+            <li onclick="producto()">Producto</li>
+            <li onclick="caracteristicas()">Características</li>
+            <li onclick="precios()">Precios</li>
         </ul>
 
         <div class="divIngreso">
@@ -27,12 +27,12 @@
         </div>
     </nav>
 
-    <header>
+    <header id="header">
         <div class="contenido">
             <p>Nuevo</p>
             <!-- <img src="./Materiales/" alt="Logo de nuevo"> -->
             <h1>La Plataforma para las empresas del futuro</h1>
-            <h5>Productos pensados para los negocios del próximo siglo</h5>
+            <h5 id="h5">Productos pensados para los negocios del próximo siglo</h5>
             <div class="botones">
                 <button class="Solicitar" onclick="ingresar()">Solicitar demo</button>
                 <button class="Registrarse" onclick="ingresar()">Registrarse</button> 
@@ -72,7 +72,7 @@
         </div>
     </section>
 
-    <div class="info">
+    <div class="info" id="infoPrecios">
         <h2>Precios flexibles que escalan contigo</h2>
         <p> Nuestra facturación se ajusta al tamaño de tu empresa. Tiempo de prueba de 7 días en todos nuestros planes</p>
     </div>
@@ -154,11 +154,11 @@
             <form action="">
                 <div class="divInputs">
                     <p>Correo</p>
-                    <input class="inputs" type="text">
+                    <input class="inputs" type="text" placeholder="tu-correo@senpaiacademy.com">
                 </div>
                 <div class="divInputs">
                     <p>Contraseña</p>
-                    <input class="inputs" type="text">
+                    <input class="inputs" type="text" placeholder="****************">
                 </div>
                 <div id="checkbox">
                     <input type="checkbox">
@@ -182,6 +182,16 @@
             const cerrar =  document.getElementById("fondoNegro");
             cerrar.classList.remove("disFlex");
         }
+        function producto() {
+            document.getElementById("header").scrollIntoView();
+	    }
+        function caracteristicas() {
+            document.getElementById("h5").scrollIntoView();
+	    }
+        function precios() {
+            document.getElementById("infoPrecios").scrollIntoView();
+	    }
+
     </script>
 </body>
 </html>
