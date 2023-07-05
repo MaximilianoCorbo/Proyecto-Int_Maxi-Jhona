@@ -144,7 +144,7 @@
         </ul>
         <p>© 2022 Flex. Un producto ficticio de Senpai</p>
     </footer>
-    <div id="fondoNegro" class="fondoNegro">
+    <div id="fondoNegro" class="fondoNegro" onclick="cerrar()">
         <div class="modal">
             <div id="logoModal">
                 <img src="Materiales\logo-blanco.png" alt="" srcset="logo senpai flex" width="32px" height="25px">
@@ -154,11 +154,11 @@
             <form action="">
                 <div class="divInputs">
                     <p>Correo</p>
-                    <input class="inputs" type="text" placeholder="tu-correo@senpaiacademy.com">
+                    <input require class="inputs" type="email" placeholder="tu-correo@senpaiacademy.com">
                 </div>
                 <div class="divInputs">
                     <p>Contraseña</p>
-                    <input class="inputs" type="text" placeholder="****************">
+                    <input class="inputs" type="password" minlength="5" placeholder="****************">
                 </div>
                 <div id="checkbox">
                     <input type="checkbox">

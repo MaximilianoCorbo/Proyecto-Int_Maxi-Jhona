@@ -228,7 +228,7 @@ section div{
     align-items: baseline;
     text-align: left;
     gap: 10px;
-    list-style-image: url('');
+    list-style: none;
     margin: 20px;
 }
 .tarjetas article div{
@@ -263,7 +263,7 @@ footer {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 24vh;
+    height: 26vh;
     background-color: #2a3342;
     align-items: center;
     justify-content: center;
@@ -277,6 +277,7 @@ footer {
     font-weight: bolder;
     color: #f7f8f9;
     gap: 5px;
+    margin-top: 20px;
 }
 footer p {
     color: #93a1b6;
@@ -286,6 +287,8 @@ footer p {
     display: flex;
     justify-content: space-around;
     margin-bottom: 25px;
+    list-style: none;
+    color: white;
 }
 
 
@@ -497,6 +500,7 @@ footer p {
     }
     .listaFooter {
         gap: 5px;
+        list-style: none;
     }
 
     .modal form {
